@@ -1,6 +1,8 @@
 import Card from './card';
 import { getParameterByName, formatNumber } from '../lib/utils';
 import { queryTinybirdEndpoint } from '../lib/tinybird';
+import LightLogo from '../assets/tb-white.png';
+import DarkLogo from '../assets/tb-dark.png';
 
 export default class Card extends HTMLElement {
     constructor() {
@@ -22,6 +24,7 @@ export default class Card extends HTMLElement {
 
     render() {
         const theme = (getParameterByName('theme') || 'light').toLowerCase();
+        const logoSrc = theme === 'light' ? DarkLogo : LightLogo;
         this.shadow.innerHTML = `
             <style>
                 .card {
@@ -63,11 +66,19 @@ export default class Card extends HTMLElement {
                     font-size: 12vw;
                     margin-top: 12%;
                 }
+
+                img.logo {
+                    position: absolute;
+                    top: 16vh;
+                    right: 8vw;
+                    height: 15%;
+                }
             </style>
             
             <div class="card ${theme}">
                <label class="card-title">${ getParameterByName('title') }</label>
-               <p class="card-metric">${ formatNumber(this.metricValue) }</label>
+               <p class="card-metric">${ formatNumber(this.metricValue) }</p>
+               <img class="logo" src="${logoSrc}"/>
             </div>
         `;
     }
