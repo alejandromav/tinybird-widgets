@@ -26,8 +26,8 @@ export default class Card extends HTMLElement {
             <style>
                 .card {
                     border: 1px solid #e6e6e6;
-                    padding: var(--padding-base);
-                    border-radius: 6px;
+                    padding: 15vh;
+                    border-radius: 8vh;
                     width: 100vw;
                     max-width: 100vw;
                     height: 100vh;
@@ -52,15 +52,15 @@ export default class Card extends HTMLElement {
                 }
 
                 label.card-title {
-                    font-size: var(--font-size-small);
+                    font-size: 6vw;
                     text-transform: uppercase;
                     font-weight: bold;
                 }
 
                 p.card-metric {
                     margin-bottom: 0;
-                    font-size: var(--font-size-medium);
                     font-weight: bold;
+                    font-size: 11vw;
                 }
             </style>
             
