@@ -59,6 +59,7 @@ export default class Card extends HTMLElement {
                     font-size: 6vw;
                     text-transform: uppercase;
                     font-weight: bold;
+                    line-height: 10vw;
                 }
 
                 p.card-metric {
@@ -70,7 +71,7 @@ export default class Card extends HTMLElement {
 
                 img.logo {
                     position: absolute;
-                    top: 16vh;
+                    top: 15vh;
                     right: 8vw;
                     height: 10vw;
                 }
