@@ -10,9 +10,13 @@ export default class Card extends HTMLElement {
 
     connectedCallback() {
         this.update();
-        // setInterval(() => {
-        //     this.update();
-        // }, 3000);
+        
+        const updateSeconds = getParameterByName('update-seconds');
+        if (updateSeconds) {
+            setInterval(() => {
+                this.update();
+            }, Math.max(updateSeconds, 5) * 1000);
+        }
     }
 
     render() {
@@ -53,7 +57,7 @@ export default class Card extends HTMLElement {
                 p.card-metric {
                     margin-bottom: 0;
                     font-size: var(--font-size-medium);
-                    // font-weight: bold;
+                    font-weight: bold;
                 }
             </style>
             

@@ -1,21 +1,20 @@
 # Tinybird Widgets
 ![](https://github.com/alejandromav/tinybird-widgets/workflows/CI/badge.svg)
 
+# :warning: **Use read-only Tinybird tokens**: Be very careful here with scope and permissions!
+
 ### Table of Contents  
 - [Usage](#usage)  
 - [Development](#development)
 
-
 # Usage
-
-> :warning: **Use read-only Tinybird tokens**: Be very careful here with scope and permissions!
 
 ```html
     <iframe
         frameborder="0"
         width=200
         height=100
-        src="http://localhost:1337/?
+        src="https://tinybird-widgets-flame.vercel.app?
             type=number
             &metric=visits
             &title=Visits
@@ -54,7 +53,7 @@
         frameborder="0"
         width=200
         height=100
-        src="http://localhost:1337/?
+        src="https://tinybird-widgets-flame.vercel.app?
             type=number
             &metric=visits
             &title=Visits
