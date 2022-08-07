@@ -60,7 +60,8 @@ export default class Card extends HTMLElement {
                 p.card-metric {
                     margin-bottom: 0;
                     font-weight: bold;
-                    font-size: 11vw;
+                    font-size: 12vw;
+                    margin-top: 12%;
                 }
             </style>
             
