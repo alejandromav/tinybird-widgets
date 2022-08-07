@@ -1,6 +1,6 @@
 {
     "name": "tinybird-widgets",
-    "version": "0.1.0-SNAPSHOT",
+    "version": "0.1.0",
     "description": "Tinybird Widgets",
     "source": [
         "src/index.html",
