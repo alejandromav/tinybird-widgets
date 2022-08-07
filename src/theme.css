@@ -1,0 +1,26 @@
+/* Global vars */
+* {
+    --font-size-large: 36px;
+    --font-size-medium: 22px;
+    --font-size-base: 17px;
+    --font-size-small: 12px;
+   
+    --text-color: #242424;
+    --text-color-grey: #aeaeae;
+    --text-color-green: #27ae60;
+    --text-color-red: #e74c3c;
+
+    --padding-large: 36px;
+    --padding-medium: 24px;
+    --padding-base: 16px;
+    --padding-small: 8px;
+
+    --margin-huge: 52px;
+    --margin-large: 32px;
+    --margin-base: 16px;
+    --margin-small: 8px;
+
+    --primary-color: #20c997;
+    --dark-background: #161724;
+
+}

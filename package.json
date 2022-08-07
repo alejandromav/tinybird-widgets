@@ -1,0 +1,24 @@
+{
+    "name": "tinybird-widgets",
+    "version": "0.1.0-SNAPSHOT",
+    "description": "Tinybird Widgets",
+    "source": [ "src/index.html", "src/demo.html" ],
+    "scripts": {
+        "build": "parcel build",
+        "start": "parcel -p 1337",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alejandromav/tinybird-widgets.git"
+    },
+    "author": "Alejandro Martin <hi@alejandromav.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alejandromav/tinybird-widgets/issues"
+    },
+    "homepage": "https://github.com/alejandromav/tinybird-widgets#readme",
+    "devDependencies": {
+        "parcel": "^2.7.0"
+    }
+}
