@@ -29,7 +29,7 @@ export default class Card extends HTMLElement {
         this.shadow.innerHTML = `
             <style>
                 .card {
-                    border: 1px solid #e6e6e6;
+                    border: 1vh solid #e6e6e6;
                     padding: 15vh 10vw;
                     border-radius: 8vw;
                     width: 100vw;
