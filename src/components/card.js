@@ -36,6 +36,7 @@ export default class Card extends HTMLElement {
                 }
 
                 .card.green {
+                    border: none;
                     background: rgb(32,201,151);
                     background: -moz-linear-gradient(135deg, rgba(32,201,151,1) 0%, rgba(11,191,220,1) 100%);
                     background: -webkit-linear-gradient(135deg, rgba(32,201,151,1) 0%, rgba(11,191,220,1) 100%);
@@ -45,6 +46,7 @@ export default class Card extends HTMLElement {
                 }
 
                 .card.dark {
+                    border: none;
                     background: var(--dark-background);
                     color: #fff;
                 }
