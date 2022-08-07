@@ -1,7 +1,7 @@
 # Tinybird Widgets
 ![](https://github.com/alejandromav/tinybird-widgets/workflows/CI/badge.svg)
 
-# :warning: **Use read-only Tinybird tokens**: Be very careful here with scope and permissions!
+# :warning: Use read-only Tinybird tokens, be very careful here with scope and permissions!
 
 ### Table of Contents  
 - [Usage](#usage)  
@@ -40,7 +40,7 @@
 | theme     | | `light` |
 | update-seconds | Integer for how many seconds between updates. 5 seconds is the minimun interval. | `light` |
 
-> :warning: **Usage will increase** when using `update-seconds`, it'll make more requests cost will increase accordingly.
+> :warning: **Usage will increase** when using `update-seconds`, it'll make more requests and Tinybird cost will increase accordingly.
 
 ## Supported Widgets
 
@@ -58,7 +58,7 @@
             &metric=visits
             &title=Visits
             &theme=dark
-            &endpoint=https://api.tinybird.co/v0/pipes/analytics.json?token=p.eyJ...
+            &endpoint=https%3A%2F%2Fapi.tinybird.co%2Fv0%2Fpipes%2Fuc_visits_date.json%3Ftoken%3Dp.eyJ1...
         "
     ></iframe>
 ```

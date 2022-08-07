@@ -9,6 +9,7 @@ export default class Card extends HTMLElement {
     }
 
     connectedCallback() {
+        this.render();
         this.update();
         
         const updateSeconds = getParameterByName('update-seconds');

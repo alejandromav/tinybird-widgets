@@ -25,5 +25,6 @@
         "concurrently": "^7.3.0",
         "parcel": "^2.7.0",
         "posthtml-replace": "^0.1.3"
-    }
+    },
+    "browserslist": "> 0.5%, last 2 versions, not dead"
 }
