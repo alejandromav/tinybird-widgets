@@ -12,7 +12,7 @@ This service generates a widget from a single URL when passign a few attributes,
 
 It follows this format:
 
-```https://https://tinybird-widgets-flame.vercel.app?metric=visits&endpoint=https%3A%2F%2Fapi.tinybird.co%2Fv0%2Fpipes%2Fuc_visits_date.json%3Ftoken%3Dp.eyJ1...```
+```https://tinybird-widgets-flame.vercel.app?metric=visits&endpoint=https%3A%2F%2Fapi.tinybird.co%2Fv0%2Fpipes%2Fuc_visits_date.json%3Ftoken%3Dp.eyJ1...```
 
 # Usage
 
