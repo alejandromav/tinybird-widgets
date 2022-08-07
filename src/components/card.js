@@ -26,8 +26,8 @@ export default class Card extends HTMLElement {
             <style>
                 .card {
                     border: 1px solid #e6e6e6;
-                    padding: 15vh;
-                    border-radius: 8vh;
+                    padding: 15vw;
+                    border-radius: 8vw;
                     width: 100vw;
                     max-width: 100vw;
                     height: 100vh;
