@@ -23,6 +23,7 @@ export default class Card extends HTMLElement {
     }
 
     render() {
+        const logo = !(getParameterByName('logo') === 'false');
         const theme = (getParameterByName('theme') || 'light').toLowerCase();
         const logoSrc = theme === 'light' ? DarkLogo : LightLogo;
         this.shadow.innerHTML = `
@@ -71,14 +72,14 @@ export default class Card extends HTMLElement {
                     position: absolute;
                     top: 16vh;
                     right: 8vw;
-                    height: 15%;
+                    height: 10vw;
                 }
             </style>
             
             <div class="card ${theme}">
                <label class="card-title">${ getParameterByName('title') }</label>
                <p class="card-metric">${ formatNumber(this.metricValue) }</p>
-               <img class="logo" src="${logoSrc}"/>
+               ${logo ? `<img class="logo" src="${logoSrc}"/>` : ''}
             </div>
         `;
     }
