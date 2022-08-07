@@ -35,7 +35,7 @@
 
 | Parameter | Values | Default |
 | --------- | ------ | ------- |
-| logo      | Display Tinybird logo, `true` or `false` | `number` |
+| logo      | Display Tinybird logo, `true` or `false` | `true` |
 | type      | One of: `number` | `number` |
 | title     | The title string you want for the card | |
 | theme     | | `light` |
